@@ -5,7 +5,9 @@
 在YSGM使用生成出的字符串
 
 当前仓库Web链接
-xyyaua.github.io/HK4E-YSGM_Mail-Parser-Generator/
+`
+xyyaua.github.io/HK4E-YSGM_Mail-Parser-Generator
+`
 
 使用base64编码
 生成字符串结构
