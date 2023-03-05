@@ -8,7 +8,7 @@ const expire_time = document.getElementById('expire_time');
 void
 function prefillUnix() {
     const now = new Date();
-    const unix = Math.round(now.getTime() / 1000) + 60 ** 2 * 24 * 7; // 1 week from now
+    const unix = Math.round(now.getTime() / 1000) + 60 ** 2 * 24 * 7; // 1 周之后
     // @ts-ignore
     expire_time.value = String(unix);
 }();
@@ -45,7 +45,7 @@ function handleSubmit(event) {
         output?.appendChild(ta);
     }
 
-    return false; // Don't reload the page
+    return false; // 不刷新页面
 }
 
 form?.addEventListener('submit', handleSubmit);
