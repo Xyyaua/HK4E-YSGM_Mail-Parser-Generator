@@ -4,7 +4,7 @@
 制作此页面是为了防止其他情况下源站不可用。  
 在YSGM使用生成出的字符串
 
-当前仓库Web链接
+当前仓库Web
 `
 xyyaua.github.io/HK4E-YSGM_Mail-Parser-Generator
 `
